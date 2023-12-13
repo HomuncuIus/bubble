@@ -1,12 +1,13 @@
 package main
 
 import (
+	"fmt"
+	"os"
+
 	"bubble/dao"
 	"bubble/models"
 	"bubble/routers"
 	"bubble/setting"
-	"fmt"
-	"os"
 )
 
 const defaultConfFile = "./conf/config.ini"
